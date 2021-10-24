@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:meme_app/auth_page.dart';
 import 'package:meme_app/home_page.dart';
+import 'package:meme_app/selectmeme.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: AuthPage(),
+      //AuthPage(),
     );
   }
 }
